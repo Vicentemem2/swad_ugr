@@ -50,13 +50,17 @@ ifconfig
 sudo nano haproxy.cfg 
 ```
 Configuración de haproxy:
+
 <img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica3/img/pruebaHaproxy.PNG">
+
 Una vez configurado haproxy lo lanzamos:
 ```shell
 sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 ```
 Como hicimos antes comprobamos el funcionamiento de haproxy con Curl:
+
 Prueba de haproxy:
+
 <img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica3/img/pruebaHaproxy.PNG">
 
 Someter a una alta carga el servidor balanceado
@@ -66,8 +70,11 @@ Vamos a hacer una prueba a los servidores usando los dos balanceadores con Apach
 ab -n 1000 -c 10 http://192.168.182.136/index.html
 ```
 Benchmark de nginx:
+
 <img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica3/img/testNginx.PNG">
+
 Benchmark de haproxy:
+
 <img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica3/img/testHaproxy.PNG">
 
 
