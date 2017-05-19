@@ -75,7 +75,7 @@ Benchmark de nginx:
 
 Benchmark de haproxy:
 
-<img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica3/img/testHaproxy.PNG">
+<img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica3/img/testHaproxi.PNG">
 
 
 
