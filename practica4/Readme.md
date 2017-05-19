@@ -10,7 +10,7 @@ mkdir /etc/apache2/ssl
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
 ```
 Instalación de SSL:
-<img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica4/img/intalacionSSLM1.PNG">
+<img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica4/img/instalacionSSLM1.PNG">
 
 Después editamos el siguiente archivo: 
 ```shell
