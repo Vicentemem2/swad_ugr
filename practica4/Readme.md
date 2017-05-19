@@ -29,4 +29,16 @@ Y finalmente reiniciamos apache:
 a2ensite default-ssl
 service apache2 reload
 ```
+Una vez que hemos reiniciado el servicio accedemos al servidor web mediante el protocolo HTTPS y veremos que en la barra de dirección sale en rojo el https puesto que es un certificado autofirmado:
+
+<img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica4/img/pruebaSSL.PNG">
+
+Configuración del cortafuegos
+
+Lo que vamos a hacer es crear un script, donde configuramos el cortafuegos iptables:
+<img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica4/img/configCorta.PNG">
+
+Una vez que tenemos el script necesitamos que se ejecute siempre que se inicie el servidor web, esto lo hemos solucionado con el demonio cron:
+<img src="https://github.com/Vicentemem2/swad_ugr/blob/master/practica4/img/cronIpe.PNG">
+
 
